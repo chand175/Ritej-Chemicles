@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  
+    background-color: white;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.menu-list{
+    width: 100%;
+    height: 25% ;
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+    top: 80px;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+.menu-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.menu-list li{
+    list-style: none;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu-list button{
+    padding: 12px 35px;
+    font-size: 16px;
+    background-color: #49a3dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo img{
+  width: 300px;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.links li  {
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: #b7b7b7;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.btn button {
+    padding: 12px 35px;
+    font-size: 16px;
+    background-color: #49a3dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.menu i {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.heroSection {
+    height: 70vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url("images/chemicles.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    padding: 0 50px;
+    background-attachment: fixed;
+    overflow-x:auto;
+    overflow-y: hidden;
+}
+
+.checkboxes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.div p {
+    font-size: 20px;
+    font-weight: 900;
+    color: #b7b7b7;
+}
+.div img {
+    width: 20px;
+    height: 20px;
+}
+
+.whoWeAre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+padding-top: 100px;
+  
+}
+.whoWeAre h1 {
+    font-size: 38px;
+    font-weight: 100;
+}
+.whoWeAre img{
+    width: 80%;
+    height: 320px;
+}
+
+span {
+    display: block;
+}
+
+.Products {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  
+  
+}
+
+.Products .listview {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 60%;
+}
+.Products .listview2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15%;
+    padding-bottom: 10px;
+    width: 35%;
+}
+.para1{
+    padding: 10px;
+    padding-left:14% ;
+}
+
+.Products button {
+    padding: 12px 35px;
+    font-size: 16px;
+    background-color: #49a3dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.unorderList {
+     padding-left: 15%;
+}
+
+.unorderList a{
+    text-decoration: none ;
+    color: white;
+}
+
+.unorderList p,
+.unorderList li {
+    font-size: 20px;
+}
+.ourMission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #888888;
+    padding: 60px 0;
+}
+
+.heading {
+    padding: 20px 0px;
+}
+
+.about h1 {
+    font-size: 40px;
+    font-weight: 100;
+    color: black;
+}
+
+.address {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+iframe{
+    width: 400px;
+    height: 400px;
+}
+.left {
+    padding-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    padding-top: 50px;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right form input {
+    padding: 10px 20px;
+    border: none;
+    width: 400px;
+    height: 50px;
+    background-color: #eeeeee;
+}
+
+textarea{
+    background-color: #eeeeee;
+    height: 150px;
+}
+
+.right button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #49a3dd;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap : 50px ;
+    padding: 110px 25px;
+}
+
+.footer img{
+    width: 300px;
+}
+
+
+
+
+
+
+@media(max-width:770px){
+
+.menu{
+    display: block;
+}
+
+.btn{
+    display: none;
+}
+.links{
+    display: none;
+}
+.para1{
+    padding-left: 10%;
+}
+.Products .listview{
+    width: 75%;
+}
+
+.Products .listview2{
+    width: 250px;
+}
+
+}
+
+
+@media(max-width:430px){
+
+span{
+    display: none;
+}
+
+.listview{
+    width: 410px;
+    padding-left: 75px;
+}
+
+.products .listview2{
+    width: 250px;
+  
+}
+
+.address span{
+    display: block;
+}
+
+.right{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:330px){
+
+    .navbar{
+        width: 320px;
+    }
+
+    .logo img{
+        width: 250px;
+
+    }
+span{
+    display: none;
+}
+
+
+    .whoWeAre img{
+height: 160px;
+    }
+.Products .listview{
+    width: 320px;
+    padding-left: 60px;
+}
+
+.Products .listview2{
+    width: 230px;
+}
+
+
+
+.address{
+   
+    width: 100%;
+    justify-content: center;
+}
+
+.address span{
+
+    display: block;
+}
+iframe{
+    width: 320px;
+}
+.left {
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.right form input{
+    width: 270px;
+}
+
+#area{
+    width: 265px;
+}
+
+.right button{
+    width: 265px;
+}
+
+
+
+
+}
+
+
