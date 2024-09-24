@@ -388,15 +388,30 @@ span{
     display: block;
 }
 
+iframe{
+    width: 300px;
+}
+
 .right{
+    width: 100%;
     padding: 20px;
 }
 
 
+.footer{
+    padding: 30px;
+}
 
 
+.right form input{
+    padding-left: 20px;
+    width: 320px;
+}
 
-
+textarea{
+    width: 320px;
+    padding: 20px;
+}
 
 
 
@@ -450,6 +465,9 @@ iframe{
     justify-content: center;
     align-items: center;
 }
+iframe{
+    width: 300px;
+}
 
 .right{
     width: 320px;
@@ -470,7 +488,9 @@ iframe{
     width: 265px;
 }
 
-
+.footer{
+    padding: 30px;
+}
 
 
 }
